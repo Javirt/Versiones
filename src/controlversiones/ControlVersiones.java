@@ -18,12 +18,12 @@ public class ControlVersiones {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner sc = new Scanner (System.in);    
-        System.out.println("Ejercicio de Clase: Cuenta regresiva");    
+        Scanner sc = new Scanner (System.in);        
+        System.out.println("Ejercicio de Clase: restar numeros");    
         System.out.println("Introduzca un número");
         int num = sc.nextInt();
         for(int i=num; i>=0; i--){
-            System.out.println(i);
+            System.out.println(num+"-"+i+"="+(num-i));
         }
     }
     
