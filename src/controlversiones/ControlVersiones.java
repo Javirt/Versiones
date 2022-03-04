@@ -25,7 +25,7 @@ public class ControlVersiones {
         for(int i=num; i>=0; i--){
             System.out.println(num+"-"+i+"="+(num-i));
         }
-        System.out.println("Buen trabajo");
+        System.out.println("Buen trabajo!");
     }
     
 }
